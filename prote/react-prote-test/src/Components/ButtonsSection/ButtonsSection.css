@@ -1,0 +1,42 @@
+.button-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 5rem 0rem;
+    gap: 1rem;
+}
+
+.button-sections button {
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+}
+
+.click {
+    border: 2px solid #24b4fb;
+    background-color: #24b4fb;
+}
+
+.clear {
+    border: 2px solid #b91c23;
+    background-color: #b91c23;
+}
+
+.button-sections button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    height: 100%;
+}
+
+.click :hover {
+    background-color: black;
+}
+
+.clear :hover {
+    background-color: black;
+}

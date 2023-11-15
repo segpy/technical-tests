@@ -1,0 +1,8 @@
+.time-sections {
+    display: flex;
+    max-width: 80%;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}

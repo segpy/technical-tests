@@ -1,0 +1,8 @@
+.serie-fibo {
+    /* visibility: hidden; */
+    min-height: 20rem;
+}
+
+.serie-fibo p {
+    text-align: center;
+}

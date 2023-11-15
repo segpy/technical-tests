@@ -1,0 +1,94 @@
+/* ... Variables CSS ... */
+
+:root {
+  /* 
+   - Colors
+  */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  /* 
+   - Typography
+  */
+  --fs-16: 16px;
+}
+
+/* ... Basic Reset ... */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  /* font-size: 1rem*/
+}
+
+body {
+  /* height: 100%; active for desktop */
+  /* display: grid;
+  grid-template-columns: 1fr; */
+  font-size: 1.6rem;
+  padding: 25px;
+  background-color: var(--very-light-gray);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* ... Código CSS para el proyecto ... */
+
+
+footer {
+  align-self: flex-end;
+}
+
+/* ... Media Queries ... */
+
+@media screen and (min-width:768px) {}
