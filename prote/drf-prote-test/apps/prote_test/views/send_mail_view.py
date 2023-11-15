@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 #   SERVICES
-from apps.app_crud.services import (FiboService, MailService)
+from apps.prote_test.services import (FiboService, MailService)
 
 
 class SendMailView(GenericAPIView):

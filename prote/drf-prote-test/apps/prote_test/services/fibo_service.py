@@ -1,4 +1,4 @@
-from apps.app_crud.utils import TimeUtils
+from apps.prote_test.utils import TimeUtils
 from datetime import datetime
 
 

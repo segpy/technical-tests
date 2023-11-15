@@ -13,4 +13,4 @@ class UserRole(models.Model):
         db_table = 'user_role'
 
     def __str__(self):
-        return self.role
+        return f'{self.role}'

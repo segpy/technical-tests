@@ -49,7 +49,7 @@ DJANGO_APPS = [
 ]
 
 LOCAL_APPS = [
-    'apps.app_crud',
+    'apps.prote_test',
 ]
 
 THIRD_APPS = [
@@ -118,7 +118,7 @@ REST_FRAMEWORK = {
 }
 
 
-ROOT_URLCONF = 'drf_crud_project.urls'
+ROOT_URLCONF = 'drf_prote_test.urls'
 
 TEMPLATES = [
     {
@@ -136,7 +136,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'drf_crud_project.wsgi.application'
+WSGI_APPLICATION = 'drf_prote_test.wsgi.application'
 
 
 # Database

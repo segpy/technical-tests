@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
-from apps.app_crud.serializers.serializers import (
+from apps.prote_test.serializers.serializers import (
     UserSerializer, GroupSerializer)
 
 

@@ -1,5 +1,5 @@
 """
-URL configuration for drf_crud_project project.
+URL configuration for drf_prote_test project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -21,6 +21,6 @@ from .swagger_doc import urlpatterns as swagger_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('apps.app_crud.urls')),
+    path('', include('apps.prote_test.urls')),
     path('', include(swagger_urls))
 ]

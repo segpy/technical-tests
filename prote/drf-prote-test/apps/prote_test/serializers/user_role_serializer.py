@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from apps.app_crud.models import UserRole
+from apps.prote_test.models import UserRole
 
 
 class UserRoleSerializer(serializers.ModelSerializer):
