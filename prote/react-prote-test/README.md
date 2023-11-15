@@ -1,5 +1,23 @@
 # React + Vite
 
+**Requirements**
+
+- **Node 18**
+
+**1. Install dependencies**
+
+```shell
+pnpm install
+```
+
+**2. Run project**
+
+```shell
+pnpm run dev
+```
+
+➜ Local: http://localhost:5173/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
